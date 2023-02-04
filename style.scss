@@ -18,11 +18,12 @@ header{
 
 .service-list{
 display: flex;
-justify-content: space-around;
+justify-content: center;
+gap: 30px;
 
 & .service-list_item{
-max-width: 370px;
-max-height: 340px;
+// max-width: 370px;
+// max-height: 340px;
 background: #FFFFFF;
 border: 1px solid #E5EAF4;
 border-radius: 8px;
@@ -45,9 +46,7 @@ padding: 14px;
 }
 
 & .item-content{
-    max-width: 290px;
-    max-height: 260px;
-    margin: 40px;
+    padding: 40px;
 }
 }
 }
@@ -90,4 +89,3 @@ fill: #0D0D0D;
 .service-list_item:hover svg{
     filter: grayscale(61%) sepia(4%) brightness(107%) hue-rotate(307deg) saturate(103%) contrast(99%)
 }
-
