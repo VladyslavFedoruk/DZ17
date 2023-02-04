@@ -1,0 +1,54 @@
+
+.hero-block_text{   
+& span{
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+color: #7690A8;
+margin-bottom:15px;
+font-family: 'Roboto', sans-serif;
+}
+
+// 3DB370
+
+& h1{
+font-weight: 600;
+font-size: 40px;
+line-height: 52px;
+letter-spacing: 0.2px;
+color: #16133D;
+margin-bottom: 40px;
+font-family: 'Nunito Sans', sans-serif;
+}
+}
+
+
+.content-text{
+& h3{
+font-weight: 400;
+font-size: 24px;
+line-height: 21px;
+letter-spacing: 0.2px;
+color: #16133D;
+padding-bottom:15px;
+font-family: 'Roboto', sans-serif;
+}
+    & p{
+max-width: 275px;
+padding-bottom: 30px;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+color: #16133D;
+padding-bottom: 30px;
+font-family: 'Roboto', sans-serif;
+    }
+    & span > a{
+    font-weight: 500;
+     font-size: 16px;
+     line-height: 19px;
+     color: #3DB370;
+ font-family: 'Roboto', sans-serif;
+    }
+}
